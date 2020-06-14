@@ -73,7 +73,7 @@
 -------------
 在关闭日志后，使用Webbench对服务器进行压力测试，对listenfd和connfd采用ET和LT模式，均可实现上万的并发连接，下面列出的是两者组合后的测试结果. 
 
-> * 内存使用情况。占用86.7%  CPU。
+> * 进程监控。占用86.7%  CPU。
 
 <div align=center><img src="https://github.com/HanXiao68/TinyServer/blob/master/test_pressure_result/top.png" height="201"/> </div>
 
