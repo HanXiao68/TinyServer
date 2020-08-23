@@ -50,9 +50,7 @@
 
 ### Reactor模式
 
-<div align=center><img src="https://github.com/HanXiao68/TinyServer/blob/master/%E9%A1%B9%E7%9B%AE%E6%95%B4%E4%BD%93%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B%E5%9B%BE.png"/> </div>
-
-
+<img src="https://github.com/HanXiao68/libevent/blob/master/image/reactor.png" width="775"/>
     要求主线程（IO处理单元）只负责监听文件描述符fd上是否有时间发生，有的话立即将事件通知工作线程（逻辑单元）。除此之外，主线程不做任何其他实质性的工作。
     读写数据，接受新的连接，以及处理客户请求均在工作线程中完成。
 
