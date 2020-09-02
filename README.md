@@ -16,7 +16,7 @@
 >  * 加入定时器，满足特定功能。比如：在30s内没有接收到传感器的数据，就立即抛异常
 
 ### 流程是什么
-
+<img src="https://github.com/HanXiao68/TinyServer/blob/master/PROJECT_FlowChart.png" width="775"/>
 
 ### 达到什么指标
 > * 能够满足实时性要求，接收传感器数据，和完成传感器时间戳对齐，以及数据融合处理。
@@ -31,8 +31,6 @@
 | Part Ⅰ | Part Ⅱ | Part Ⅲ | Part Ⅳ | Part Ⅴ | Part Ⅵ |
 | :--------: | :---------: | :---------: | :---------: | :---------: | :---------: |
 | [并发模型](https://github.com/HanXiao68/TinyServer/blob/master/%E5%B9%B6%E5%8F%91%E6%A8%A1%E5%9E%8B.md)|[连接的维护](https://github.com/linyacool/WebServer/blob/master/连接的维护.md)|[版本历史](https://github.com/linyacool/WebServer/blob/master/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2.md) | [测试及改进](https://github.com/HanXiao68/TinyServer/blob/master/%E6%B5%8B%E8%AF%95.md) | [项目目的](https://github.com/linyacool/WebServer/blob/master/%E9%A1%B9%E7%9B%AE%E7%9B%AE%E7%9A%84.md) | [项目的思考](https://github.com/HanXiao68/TinyServer/blob/master/%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%80%9D%E8%80%83)
-
-<img src="https://github.com/HanXiao68/TinyServer/blob/master/PROJECT_FlowChart.png" width="775"/>
 
 ## Technical points
 * 使用Epoll边沿触发的IO多路复用技术，非阻塞IO，使用Reactor模式
