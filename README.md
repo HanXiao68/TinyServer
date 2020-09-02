@@ -29,8 +29,8 @@
 
 测试页：
 
-| Part Ⅰ | Part Ⅱ | Part Ⅲ | Part Ⅳ | Part Ⅴ | Part Ⅵ |
-| :--------: | :---------: | :---------: | :---------: | :---------: | :---------: |
+| Part Ⅰ | Part Ⅱ | Part Ⅲ | Part Ⅳ | Part Ⅴ |
+| :--------: | :---------: | :---------: | :---------: | :---------: |
 | [并发模型](https://github.com/HanXiao68/TinyServer/blob/master/%E5%B9%B6%E5%8F%91%E6%A8%A1%E5%9E%8B.md)|[连接的维护](https://github.com/HanXiao68/TinyServer/blob/master/%E8%BF%9E%E6%8E%A5%E5%A4%84%E7%90%86.md)| [测试及改进](https://github.com/HanXiao68/TinyServer/blob/master/%E6%B5%8B%E8%AF%95.md) | [项目目的](https://github.com/HanXiao68/TinyServer/blob/master/%E9%A1%B9%E7%9B%AE%E7%9A%84%E7%9B%AE%E7%9A%84.md) | [项目的思考](https://github.com/HanXiao68/TinyServer/blob/master/%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%80%9D%E8%80%83.md)
 
 ## Technical points
